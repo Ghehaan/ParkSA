@@ -1,0 +1,155 @@
+﻿.filterIcon
+{
+    float:left;
+    margin:1px;
+    height:100px;
+    width:100px;
+    white-space:normal;
+    padding:0px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s; /* Safari 3.1 to 6.0 */    
+    background-color:#f2f2f2;
+    color:#666666;
+    font-size:0.9em;
+    text-align:center;
+}
+.selected
+{
+    background-color:#009900 !important;
+    color:#ffffff;
+}
+section.download 
+{
+    padding:0px;
+}
+.navbar-default .navbar-collapse .header-content-inner, .navbar-default .navbar-form .header-content-inner
+{
+    padding:200px;
+}
+.navbar
+{
+    border-bottom:1px solid #888888;
+}
+.navbar-default .navbar-header .navbar-brand
+{
+    color:#000000;
+}
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus
+{
+    color:#000000;
+}
+.navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus
+{
+    color:#000000;
+}
+.navbar-default a
+{
+    
+    /*background-color:#007f02;*/
+}
+.affix.navbar-default
+{
+    background-color:#eeeeee;
+}
+header
+{
+    background-color:#ffffff;
+    background-image:none;
+}
+.header-content-inner
+{
+    background-color:#ffffff;
+    color:#000000;
+}
+/*.filterIcon
+{
+    float:left;
+    height:100px;
+    width:100px;
+    background-color:transparent;
+    color:#444444;
+    margin:1px;
+    text-align:center;    
+    border:#ffffff 1px solid;
+}
+
+.filterIcon:hover
+{
+    color:#ffffff;
+    background-color: #168e16;
+    border:#0b590b 1px solid;
+    cursor:pointer;
+}*/
+.clear
+{
+    clear:both;
+}
+
+
+/**/
+#FilterControl
+{
+    display:none;
+}
+.filterPanel
+{
+    padding:5px 15px 5px 20px;
+    background-color:#999;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    
+}
+.filterPanel .button
+{
+    display:inline-block;
+    padding:5px;
+    border-radius:4px;
+    /*
+    margin-top: 2px;
+    margin-bottom: 10px;*/
+    border: 1px solid #333;
+    margin-right:10px;
+    font-size: 14px;
+    background-color: #efefef !important;
+    /*
+    padding:5px;
+    border-radius:4px;
+    border:1px solid #ccc;
+    color:#888;
+    margin:2px;
+    */
+}
+.glyphicon
+{
+    /*top:3px;*/
+}
+.filterPanel .button:hover
+{
+    cursor:pointer;
+    border: 1px solid #009900;
+    color: #009900;
+}
+.filterPanel .selected
+{
+    border: 1px solid #009900;
+    background-color: #ddffdd !important;
+    color: #009900;    
+}
+.filterPanel .filter-icon
+{
+}
+.filterPanel .sort-icon
+{
+}
+.filterPanel .perpage-icon
+{
+}
+.filterPanel .list-icon
+{
+}
+.filterPanel .gallery-icon
+{
+}
+.filterPanel .map-icon
+{
+}
