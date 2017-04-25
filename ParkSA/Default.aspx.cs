@@ -24,7 +24,7 @@ namespace ParkSA
 
             List<Park> parkList = business.GetParks();
             Parks.DataSource = parkList;
-            
+            Map.DataSource = parkList.ToList<IMap>();
         }
     }
 }

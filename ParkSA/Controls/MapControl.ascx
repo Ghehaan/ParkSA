@@ -1,5 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MapControl.ascx.cs" Inherits="ParkSA.Controls.MapControl" %>
 <div id="mapPanel">
+    <asp:Label ID="MapMessage" runat="server" />
     <div id="googleMap" style="width:100%;height:400px;border-radius:4px;border:1px solid #ddd;"></div>
 </div>
 <script>

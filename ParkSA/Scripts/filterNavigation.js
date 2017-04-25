@@ -17,8 +17,11 @@
             $("#mapPanel").hide();
             $("#parksPanel .row > div").each(function () {
                 $(this).removeClass("col-sm-4");
+                $(this).removeClass("GalleryItem");
                 $(this).addClass("col-sm-12");
+                $(this).addClass("ListItem");
                 $(this).find(".Park").addClass("List");
+                $(this).find(".Park").removeClass("Gallery");
             });
 
         }
@@ -35,7 +38,9 @@
             $("#mapPanel").hide();
             $("#parksPanel .row > div").each(function () {
                 $(this).removeClass("col-sm-12");
+                $(this).removeClass("ListItem");
                 $(this).addClass("col-sm-4");
+                $(this).addClass("GalleryItem");
                 $(this).find(".Park").removeClass("List");
                 $(this).find(".Park").addClass("Gallery");
             });
@@ -54,4 +59,9 @@
     $("#listButton > .glyphicon").click(function () {
     });
     $("#listButton").trigger("click");
+    $(window).resize(function () {
+        if ($(window).width() < 600) {
+            alert($(window).width());
+        }
+    });
 });
